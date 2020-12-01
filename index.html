@@ -35,16 +35,11 @@
       <link rel="preconnect"
             href="https://fonts.gstatic.com">
 
-      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@300&display=swap"
             rel="preload"
-            as="style">
-      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
-            rel="stylesheet">
-
-      <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
-            rel="preload"
-            as="style">
-      <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+            as="stylesheet"
+            crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@300&display=swap"
             rel="stylesheet">
 
       <link href="./src/app/styles.css"
@@ -95,7 +90,10 @@
             as="script"
             crossorigin="anonymous">
       <script src="./src/app/main.js"
-              type="module"></script>
+              type="module"
+              rel="preload"
+              as="script"
+              crossorigin="anonymous"></script>
       <script>
             if ('serviceWorker' in navigator) {
                   navigator.serviceWorker.register('./service-worker.js', {
