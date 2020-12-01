@@ -1,10 +1,9 @@
 .projects {
-  /* padding: var(--padding-lg); */
   height: 100%;
   width: 100%;
   display: grid;
-  grid: repeat(2, 100%) / 1fr;
-  overflow-x: auto;
+  grid: repeat(3, 100%) / 1fr;
+  overflow-y: auto;
   -ms-overflow-style: none;
   scroll-snap-type: y mandatory;
 }
