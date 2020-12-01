@@ -1,0 +1,69 @@
+.home__space {
+  /* animation: threed 4s infinite linear;
+  perspective: 40px; */
+}
+
+.home__stars {
+  pointer-events: none;
+}
+
+.home__stars circle {
+  opacity: 0;
+  transition: opacity 5s ease-in-out 5s;
+  pointer-events: all;
+}
+
+.home__stars circle:hover {
+  opacity: 1;
+  transition: opacity 0s;
+}
+
+.home__earth {
+}
+
+.home__orbit {
+}
+
+.home__moon {
+  transform-origin: center;
+  animation: spinOverItslef 24s infinite linear;
+}
+
+.home__rocket {
+  /* animation: navigate 60s infinite linear;
+  -webkit-animation: navigate 5s linear infinite; */
+}
+
+@keyframes threed {
+  0% {
+    transform: rotate3d(0, 0, 0, 0deg);
+  }
+  33% {
+    transform: rotate3d(-100, -200, -300, -120deg);
+  }
+  66% {
+    transform: rotate3d(-100, -200, -300, +120deg);
+  }
+  100% {
+    transform: rotate3d(0, 0, 0, 360deg);
+  }
+}
+
+@keyframes spinOverItslef {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* @keyframes navigate {
+  0% {
+    transform: translate(0px, 0px);
+    transform: rotateZ(0deg);
+  }
+  40% {
+    transform: rotateZ(360deg);
+  }
+  80% {
+    transform: rotateZ(620deg);
+  }
+} */
