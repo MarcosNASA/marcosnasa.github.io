@@ -149,10 +149,6 @@
     max-height: 100px;
   }
 
-  .showcase__info {
-    height: auto;
-  }
-
   .showcase__description {
     margin-bottom: var(--padding-sm);
   }

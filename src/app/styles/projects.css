@@ -36,7 +36,7 @@
   grid-area: 1 / 1 / 1 / 1;
   justify-self: center;
   align-self: flex-end;
-  height: 20vh;
+  height: auto;
   width: 100%;
   display: grid;
   grid: 64px repeat(2, 1fr) / repeat(12, 1fr);
@@ -63,6 +63,7 @@
   font-size: 1.5rem;
   line-height: var(--line-height-lg);
   overflow: auto;
+  padding-bottom: 10px;
 }
 
 .showcase__links {
