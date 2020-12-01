@@ -72,7 +72,7 @@
     grid-template-areas:
       'content'
       'nav';
-    grid-template-rows: auto 100px;
+    grid-template-rows: calc(100vh - 100px) 100px;
     grid-template-columns: auto;
   }
 
@@ -97,6 +97,10 @@
 
   .nav-bar__link {
     height: 100%;
+  }
+
+  .main {
+    min-height: calc(100vh - 100px);
   }
 
   .home {

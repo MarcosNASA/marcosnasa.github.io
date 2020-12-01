@@ -17,8 +17,6 @@
 
   --secondary-color: #d3b3c3;
 
-  /* --accent-color: #e31b61;
-    --accent-color-shade: #b8154e; */
   --accent-color: #4ec0c0;
   --accent-color-shade: #2fa5a5;
 
@@ -44,13 +42,10 @@
   outline: 1px solid var(--dark-500);
 }
 
-main {
-  overflow: hidden;
-}
-
 .app {
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
   display: grid;
   grid-template-areas:
     'nav content'
@@ -109,13 +104,9 @@ main {
   fill: var(--accent-color);
 }
 
-.page {
-  height: 100%;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
+.main {
+  overflow-y: hidden;
+  min-height: calc(100vh - 60px);
 }
 
 .page::-webkit-scrollbar {

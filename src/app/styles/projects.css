@@ -61,8 +61,8 @@
   grid-area: 2 / 1 / 4 / 13;
   font-size: 1.5rem;
   line-height: var(--line-height-lg);
-  overflow: auto;
-  padding-bottom: 10px;
+  overflow-y: auto;
+  padding-bottom: 20px;
 }
 
 .showcase__links {
