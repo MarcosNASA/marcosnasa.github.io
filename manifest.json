@@ -1,11 +1,11 @@
 {
   "name": "Marcos Nasa G's portfolio",
   "short_name": "MNG's portfolio",
-  "theme_color": "#e31b61",
-  "background_color": "#121214",
+  "theme_color": "#4ec0c0",
+  "background_color": "#0c0c0d",
   "display": "minimal-ui",
   "scope": "./",
-  "start_url": "./",
+  "start_url": "https://marcosnasa.github.io/",
   "icons": [
     {
       "src": "./assets/icons/icon-1080.png",

@@ -99,7 +99,7 @@ async function onFetch(event) {
       const cachedResponsePromise = await cache.match(request);
       const networkResponsePromise = fetch(request);
       const offlineResponsePromise = await cache.match(
-        new Request('https:domain/my-offline.html'),
+        new Request('https://marcosnasa.github.io/'),
       );
 
       if (request.url.startsWith(self.location.origin)) {
