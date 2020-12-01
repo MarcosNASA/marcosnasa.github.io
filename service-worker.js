@@ -32,6 +32,7 @@ const urlsToCache = [
   './assets/icons/icon-512.png',
   './assets/icons/icon-1080.png',
   './assets/icons/icon-maskable.png',
+  './manifest.json',
 ];
 
 self.addEventListener('install', onInstall);
