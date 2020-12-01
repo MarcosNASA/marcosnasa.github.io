@@ -33,8 +33,7 @@ const urlsToCache = [
   './assets/icons/icon-1080.png',
   './assets/icons/icon-maskable.png',
   './manifest.json',
-  './assets/fonts/Pacifico-Regular.ttf',
-  './assets/fonts/Roboto-Regular.ttf',
+  'https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@300&display=swap',
 ];
 
 self.addEventListener('install', onInstall);
