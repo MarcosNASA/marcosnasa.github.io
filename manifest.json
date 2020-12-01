@@ -1,6 +1,6 @@
 {
   "name": "Marcos Nasa G's portfolio",
-  "short_name": "MNG's portfolio",
+  "short_name": "marcosnasag",
   "theme_color": "#4ec0c0",
   "background_color": "#0c0c0d",
   "display": "minimal-ui",
@@ -10,22 +10,22 @@
     {
       "src": "./assets/icons/icon-1080.png",
       "type": "image/png",
-      "size": "1080x1080"
+      "sizes": "1080x1080"
     },
     {
       "src": "./assets/icons/icon-512.png",
       "type": "image/png",
-      "size": "512x512"
+      "sizes": "512x512"
     },
     {
       "src": "./assets/icons/icon-256.png",
       "type": "image/png",
-      "size": "256x256"
+      "sizes": "256x256"
     },
     {
       "src": "./assets/icons/icon-192.png",
       "type": "image/png",
-      "size": "192x192"
+      "sizes": "192x192"
     },
     {
       "src": "./assets/icons/icon-maskable.png",
@@ -36,17 +36,17 @@
     {
       "src": "./assets/icons/icon-128.png",
       "type": "image/png",
-      "size": "128x128"
+      "sizes": "128x128"
     },
     {
       "src": "./assets/icons/icon-96.png",
       "type": "image/png",
-      "size": "96x96"
+      "sizes": "96x96"
     },
     {
       "src": "./assets/icons/icon-64.png",
       "type": "image/png",
-      "size": "64x64"
+      "sizes": "64x64"
     }
   ]
 }
