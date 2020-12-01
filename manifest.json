@@ -5,7 +5,7 @@
   "background_color": "#121214",
   "display": "minimal-ui",
   "scope": "./",
-  "start_url": "./index.html",
+  "start_url": "./",
   "icons": [
     {
       "src": "./assets/icons/icon-1080.png",
@@ -26,6 +26,12 @@
       "src": "./assets/icons/icon-192.png",
       "type": "image/png",
       "size": "192x192"
+    },
+    {
+      "src": "./assets/icons/icon-maskable.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
     },
     {
       "src": "./assets/icons/icon-128.png",
