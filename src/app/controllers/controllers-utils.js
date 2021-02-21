@@ -1,3 +1,1 @@
-const defaultRoute = './src/app/views';
-
-export { defaultRoute };
+export const defaultRoute = './src/app/views';
