@@ -137,6 +137,10 @@
     grid-area: 1 / 1 / 2 / 10;
   }
 
+  .showcase__image {
+    height: 100%;
+  }
+
   .showcase__links {
     grid-area: 1 / 10 / 2 / 13;
   }
